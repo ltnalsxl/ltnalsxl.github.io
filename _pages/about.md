@@ -14,78 +14,76 @@ comments: true
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-## 👋 Hey there, welcome to **SumInsideTech**!
+## 👋 Welcome to **SumInsideTech**
 
-Ever wondered what's really happening behind those sleek tech updates and product features? That's exactly why I created **SumInsideTech**—a space where we dive deep into the fascinating world of tech, data, and automation.
+Ever wondered what’s really behind tech updates, product decisions, and automation breakthroughs? That curiosity is exactly why SumInsideTech exists.
 
-The name **SumInsideTech** comes from my favorite puzzle:  
-💡 **"The most interesting stories in tech are often hidden beneath the surface."**
+Here, we dive into data, technology, and automation—breaking down complex topics into meaningful insights that drive smarter decisions. No fluff, no jargon—just real stories and strategies that matter.
+
+Here, we explore various fields through analytics, share insights that help us grow together, and dive deep into products, data, technology, and automation. We also share career stories and experiences - creating a space for discovering valuable insights and learning from each other.
+💡 **"Growth happens when we share and learn together."**
 
 I'm here to uncover those stories and make them accessible to everyone who's curious about the 'why' and 'how' behind technology.
 
 ## 🚀 **The Story Behind SumInsideTech**
-After years of working with data and products, I've realized something pretty cool: when you combine data knowledge with smart automation, magic happens. Not the Harry Potter kind, but the kind that transforms the way we work and create value.
+After years of working with data, I've realized something powerful:
+**When data meets automation, things just work—better, faster, smarter.**
 
-I've seen teams light up when they discover how to use data intuitively, and I've witnessed the "aha!" moments when complex problems become simple through smart automation. That's what I want to share here.
+
+I've seen teams light up when they discover how to use data intuitively, and I've witnessed the *"aha!"* moments when complex problems become simple through smart automation. That's what I want to share here.
 
 ## ✨ **What's in it for you?**
-Think of this blog as your insider's guide to the tech world. No jargon, no fluff—just practical insights and strategies that actually work.
+Think of this blog as your insider's guide to the tech world. 
 
-Here's what we're all about:
+Here's what we explore:
 
-### 🎯 **Making Data Your Friend**  
-Because data doesn't have to be scary or complicated. Let's turn numbers into stories that make sense.
-
-### ⚡ **Work Smarter, Not Harder**  
-Who likes repetitive tasks? (Nobody.) Let's automate the boring stuff and focus on the work that really matters.
-
-### 🌱 **Growing Together**  
-The best ideas come from collaboration. Let's learn from each other and build something awesome together.
-
-## 🔍 **What We Cover**
-
-### 🎯 **Inside Products**
+### 🔍 **Inside Products**
 Stories hidden within products:
 - Behind-the-scenes of product decisions
-- Special moments discovered through A/B testing
+- A/B testing adventures & discoveries
 - Hidden user needs revealed by data
-- Valuable lessons from new feature launches
 - Product philosophy in small details
 
 ### 📊 **Product Analytics**
-Journey of discovering insights in data:
-- Understanding user behavior patterns
-- Deep dive into product performance
-- Product strategy through metrics
-- Working smarter with analysis automation
-- Storytelling through data
+Making data work for us:
+- User behavior patterns & insights
+- Deep dives into product performance
+- Strategy through metrics
+- Work smarter with automation
+- Data storytelling that clicks
 
 ### 💡 **Tech Stories**
-- Deep dive into emerging technologies
-- Tech trends shaping our future
-- Stories of innovation that inspire
-- Predicting the impact of new tech
+Beyond the surface:
+- Emerging tech deep dives
+- Future-shaping trends
+- Innovation stories that inspire
 - Inside major tech conferences
-- Global tech event highlights
+- Global tech highlights
+- Industry learnings
 
 ### 🔬 **Project Lab**
-Where ideas become experiments:
-- Side projects & automation experiments
-- Data analysis stories
-- Project behind-the-scenes
+Where ideas become reality:
+- Side project adventures
+- Automation experiments
+- Analysis playgrounds
+- Behind-the-scenes stories
 
-### 👤 **Personal**
-Sharing my career journey and experiences:
-- Growth logs & reflections
-- Notes from reading, watching, and listening
-- Career insights and thoughts
-- Community activities
-- Learnings from coffee chats & meetups
-- Small but useful tips for working smart
+### 👤 **Career & Growth**
+Real experiences, real insights:
+- Growth journals & reflections
+- Career paths & decisions
+- Community stories
+- Coffee chat insights
+- Working smart tips
 
+Great ideas grow better together. Let's make tech more accessible, work smarter, and grow together. 💫
 
-## 🌍 **Who's This For?**
-Whether you're a data nerd 🤓, a product enthusiast 💡, a tech explorer 🚀, or just someone who loves learning about what makes things tick—you're in the right place.
+## 🌍 **Who This Is For**
+
+For those who love data, or data nerd 🤓
+For those fascinated by products 💡
+For those curious about new tech 🚀
+For anyone who enjoys discovering something new ✨
 
 No gatekeeping here—just honest insights and practical knowledge you can actually use.
 
@@ -127,78 +125,64 @@ Connect with me 🤝:
 <div class="col-md-8 pr-5">
 ## 👋 안녕하세요, 숨인사이드테크입니다!
 
-테크 업데이트나 새로운 기능 뒤에 어떤 이야기가 숨어있는지 궁금하신가요? 저도 항상 그랬어요. 그래서 **숨인사이드테크**를 시작했습니다. 기술과 데이터, 그리고 자동화의 세계를 더 깊이 들여다보고 이야기 나누는 공간이에요.
 
-제가 지은 이름 **숨인사이드테크**에는 이런 의미가 담겨있어요:  
-💡 **"기술 속에 숨겨진 이야기를 발견하는 즐거움"**
+기술 업데이트, 제품 전략, 자동화 혁신 뒤에는 어떤 이야기가 숨어 있을까요? 그 호기심을 이곳 **숨인사이드테크**에서 풀어가 보려고 해요.
+이곳은 기술과 데이터, 그리고 자동화의 세계를 더 깊이 들여다보고 이야기 나누는 곳이자, 분석 관점으로 다양한 분야를 탐색하고, 함께 성장하는 인사이트를 나누며, 프로덕트, 데이터, 기술, 자동화의 세계를 더 깊이 들여다보는 공간이에요.
 
-누구나 쉽게 이해하고 활용할 수 있도록, 기술 속 숨은 이야기들을 찾아 공유하려고 해요.
+누구나 쉽게 이해하고 활용할 수 있도록, 가치 있는 이야기들을 발견하고 서로에게 배우는 여정을 함께해요.
+이곳은 💡 **"함께 나누고 배우며 성장하는 곳"** 입니다.
 
 ## 🚀 **숨인사이드테크를 시작한 이유**
 데이터와 프로덕트 분야에서 일하면서 깨달은 게 있어요. 데이터를 제대로 이해하고 스마트한 자동화를 더하면 정말 놀라운 일이 일어난다는 거죠. 
 
 팀원들이 데이터를 직관적으로 이해하고 활용하게 되었을 때의 그 빛나는 순간들, 복잡해 보이던 문제가 자동화를 통해 간단해지는 순간들... 이런 경험들을 나누고 싶었어요.
 
-## ✨ **이런 이야기들을 나눠요**
-테크 세상의 이야기를 쉽고 재미있게 풀어보려고 해요. 어려운 용어는 빼고, 실제로 도움이 되는 인사이트와 전략을 공유할게요.
+### ✨ **이런 이야기들을 나눠요**
 
-이런 콘텐츠를 만들어가요:
-
-### 🎯 **데이터를 부담 없이**  
-데이터가 꼭 어렵고 복잡할 필요는 없잖아요? 숫자를 이야기로 바꾸는 방법을 공유할게요.
-
-### ⚡ **일 잘하는 방법**  
-반복적인 일에 지치셨나요? 자동화로 귀찮은 일은 줄이고, 정말 중요한 일에 집중하는 방법을 알려드릴게요.
-
-### 🌱 **함께 성장하기**  
-좋은 아이디어는 혼자보다는 함께일 때 나오죠. 서로의 경험을 나누면서 더 멋진 것을 만들어봐요.
-
-## 🔍 **주요 콘텐츠**
-
-### 🎯 **Inside Products**
+### 🔍 **Inside Products**
 제품 속에는 늘 흥미로운 이야기가 숨어있죠:
 - 제품 결정 뒤에 숨은 재미있는 이야기
 - A/B 테스트로 발견한 특별한 순간들
 - 데이터로 찾아낸 숨겨진 사용자 니즈
-- 새로운 기능에서 배운 소중한 교훈들
 - 작은 디테일 속 제품 철학 이야기
 
 ### 📊 **Product Analytics**
-데이터 속에서 인사이트를 발견하는 여정:
-- 데이터로 읽어보는 사용자 행동 패턴
-- 제품 성과에 대한 깊이 있는 분석
-- 지표로 이해하는 제품 전략
-- 분석 자동화로 일 잘하는 방법
-- 데이터를 통해 이야기하기
+데이터가 복잡할 필요는 없어요. 인사이트를 발견하는 여정을 함께해요:
+- 사용자 행동 패턴 탐색하기
+- 제품 성과 분석 이야기
+- 지표로 읽는 제품 전략
+- 분석 자동화로 일 잘하기
 
 ### 💡 **Tech Stories**
 기술 너머의 이야기를 들려드려요:
 - 새로운 기술 톺아보기
 - 미래를 바꿀 테크 트렌드
 - 영감을 주는 혁신 사례
-- 신기술이 가져올 변화 예측하기
-- 테크 뉴스 심층 분석
-- 글로벌 테크 컨퍼런스 하이라이트
+- 글로벌 테크 컨퍼런스 인사이트
+- 업계 트렌드와 인사이트
 
 ### 🔬 **Project Lab**
-아이디어가 실험이 되는 공간:
-- 사이드 프로젝트 & 자동화 실험 프로젝트
-- 데이터 분석 이야기
-- 프로젝트 비하인드 스토리
+실험하고 배우는 공간:
+- 사이드 프로젝트 이야기
+- 자동화 실험실
+- 데이터 분석 프로젝트
+- 실험의 비하인드 스토리
 
-### 👤 **Personal**
-제 커리어 여정과 경험을 나눠요:
-- 성장 일지 및 회고
-- 보고 듣고 읽고 정리한 기록들
-- 커리어 고민과 인사이트
-- 커뮤니티 활동기
-- 커피챗과 밋업에서 배운 것들
-- 일잘러로 거듭나는 소소한 꿀팁
+### 👤 **Career & Growth**
+서로의 경험에서 배워요:
+- 성장 일지와 회고록
+- 커리어 고민과 선택의 순간들
+- 커뮤니티 활동과 밋업 이야기
+- 실무에서 배운 작은 팁들
 
 ## 🌍 **이런 분들을 위한 공간이에요**
-데이터를 좋아하시는 분들 🤓, 프로덕트에 관심 많은 분들 💡, 새로운 기술이 궁금하신 분들 🚀, 이외에도 이것저것 알아가는 게 재미있는 모든 분들을 위한 공간이에요.
 
-어려운 이야기는 NO! 실제로 써먹을 수 있는 인사이트와 꿀팁만 골라 담아드릴게요.
+데이터가 재밌는 분들 🤓
+프로덕트에 관심 많은 분들 💡
+새로운 기술이 궁금한 분들 🚀
+뭔가를 발견하는 게 즐거운 분들 ✨
+
+어려운 이야기는 NO! 현장에서 바로 쓸 수 있는 인사이트와 꿀팁만 골라 담았어요.
 
 ## 📩 **함께 이야기해요!**
 아이디어가 있으신가요? 궁금한 점이 있다면? 아니면 그냥 테크 이야기로 수다 떨고 싶으신가요? 언제든 환영입니다!
