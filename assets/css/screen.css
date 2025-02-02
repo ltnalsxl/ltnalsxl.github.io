@@ -22,21 +22,37 @@ a:hover {
 }
 
 pre {
+    text-align: left !important; /* 코드 블럭 왼쪽 정렬 */
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: #E3EDF3 1px solid;
     width: 100%;
-    padding: 7px;
-    font-family: monospace, sans-serif;
+    padding: 10px; /* 기존 7px → 10px (가독성 향상) */
+    font-family: "Courier New", monospace, sans-serif;
     font-size: .9rem;
     white-space: pre;
     overflow: auto;
-    background: #fff;
-    border-radius: 0px;
+    background: #f8f9fa; /* ✅ 기존 흰색 -> 라이트 그레이 배경 */
+    border-radius: 5px; /* ✅ 둥근 테두리 추가 */
     line-height: 1.6;
     color: #333;
-    margin-bottom: -rem;
+    margin-bottom: 1rem; /* ✅ -rem 오류 수정 */
 }
+
+/* ✅ pre 안의 code 스타일 */
+pre code {
+    text-align: left !important; /* 코드 블럭 왼쪽 정렬 */
+    display: block;
+    font-family: "Courier New", monospace, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow-x: auto; /* ✅ 가로 스크롤 추가 */
+}
+
 
 .mediumnavigation {
     background: rgba(255, 255, 255, .97);
