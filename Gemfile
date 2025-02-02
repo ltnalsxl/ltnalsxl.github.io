@@ -3,10 +3,10 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.10"
 gem "jekyll-feed"
 gem "jekyll-sitemap"
-
-gemspec
+gem "jekyll-seo-tag"
 
 gem "html-proofer", "~> 5.0", group: :test
 
