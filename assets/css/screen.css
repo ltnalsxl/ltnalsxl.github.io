@@ -336,12 +336,24 @@ span.post-read-more a:hover {
     color: rgba(0, 0, 0, .8);
 }
 
-blockquote {
+/*blockquote {
     border-left: 4px solid #00ab6b;
     padding: 0 20px;
     font-style: italic;
     color: rgba(0, 0, 0, .5);
+}*/ 
+/*blockquote 변경*/
+
+blockquote {
+    font-style: normal;
+    color: #21325c; /* 흰색 글자 */
+    background: #ffffff; /* 다크 블루 배경 */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .article-post p,
 .article-post blockquote {
