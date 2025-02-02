@@ -363,11 +363,8 @@ span.post-read-more a:hover {
 blockquote {
     font-style: normal;
     color: #21325c; /* 흰색 글자 */
-    background: #ffffff; /* 다크 블루 배경 */
-    padding: 20px;
-    margin: 20px 0;
+    background: #e5e5e5; /* 다크 블루 배경 */
     border-radius: 5px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 
