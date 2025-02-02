@@ -14,6 +14,8 @@ comments: true
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
+{% markdown %}
+
 ## 👋 Welcome to **SumInsideTech**
 
 Ever wondered what’s really behind tech updates, product decisions, and automation breakthroughs? That curiosity is exactly why SumInsideTech exists.
@@ -212,7 +214,10 @@ Connect with me 🤝:
 </div>
 </div>
 </div>
-</div></div>
+</div>
+  {% endmarkdown %}
+
+</div>
 <script>
 function switchLanguage(lang) {
   if (lang === 'en') {
