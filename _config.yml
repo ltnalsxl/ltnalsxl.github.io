@@ -1,7 +1,7 @@
 # Site
-name: "sumin's archive"
-title: "sumin's archive"
-description: "A blog about tech, projects, analytics, and more."
+name: "SumInsideTech"
+title: "SumInsideTech | Deep Tech Stories & Analytics"
+description: "Looking inside tech products and trends. Sharing in-depth analysis and stories about digital innovations."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
@@ -14,7 +14,7 @@ permalink: /:title/
 # Authors
 authors:
   ltnalsxl:
-    name: ltnalsxl  # 본인의 닉네임 또는 이름
+    name: sumin  # 본인의 닉네임 또는 이름
     display_name: Sumin Lee  # 화면에 표시될 이름
     gravatar: e56154546cf4be74e393c62d1ae9f9d4  # Gravatar 해시 (원하는 경우만 수정)
     web: 
@@ -36,6 +36,13 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
+
+# Categories 설정 (Tech Innovation → Tech Stories 변경 반영)
+categories:
+  - inside-products
+  - product-analytics
+  - tech-stories 
+  - project-lab
     
 # Pagination 
 paginate: 6
