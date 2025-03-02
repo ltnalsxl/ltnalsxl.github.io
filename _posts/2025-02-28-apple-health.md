@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "기록에 진심이라면? Apple Health 데이터 제대로 활용하는 법!"
+title: "기록에 진심이라면? Apple Health 데이터 제대로 활용해보기!"
 author: ltnalsxl
 categories: [Technology, Data, HealthTech]
 tags: [Apple Health, Google Sheets, Google Cloud, Data Automation, Health Analytics]
