@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "정체된 조직에서 시작된 변화, 그리고 다음 단계로의 전환"
+title: "2025 1분기: 정체된 조직에서 다음 단계로의 전환"
 author: ltnalsxl
 categories: [Career, Digital Transformation, Work Culture, Retrospective]
 tags: [DT, 자동화, 문서화, 커리어, 이직, PowerAutomate, BI, Fabric]
 image: 
 description: "정체된 구조 속에서 자동화와 문서화 체계를 설계하고 실행한 25년 1분기. 실질적인 변화를 만든 과정과 앞으로의 방향에 대한 기록"
 ---
-
-# 정체된 조직에서 시작된 변화, 그리고 다음 단계로의 전환
 
 2024년은 이직 후 처음 맞은 해였다.  
 하지만 '처음'이라는 말이 무색할 만큼, 성장에 대한 피드백이나 업무 방향성 없이 시간이 흘렀다.
