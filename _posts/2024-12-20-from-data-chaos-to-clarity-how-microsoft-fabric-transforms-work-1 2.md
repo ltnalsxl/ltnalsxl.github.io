@@ -2,7 +2,7 @@
 title: "From Data Chaos to Clarity: How Microsoft Fabric Transforms Work (1)"
 date: 2024-12-20 11:00:00 +0900
 tags: [글또]
-categories: [Data]
+categories: [suminsidetech, data-insight]
 ---
 
 # Microsoft Fabric: Ignite 2024에서 공개된 데이터와 AI의 미래 🎉

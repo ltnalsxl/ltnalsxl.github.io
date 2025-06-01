@@ -2,7 +2,7 @@
 layout: post
 title: "엑셀에서는 멀쩡한데 Hive에서 깨진다? CSV 데이터 적재 문제 완벽 해결 가이드 🛠️"
 author: ltnalsxl
-categories: [ Tech, Data Engineering, ETL, Troubleshooting ]
+categories: [automation, data-engineering]
 tags: [ Hive, CSV, Data Pipeline, Excel, 데이터엔지니어링 ]
 image:
 description: "엑셀에서 확인하면 완벽한데, Hive에 올리면 깨져버리는 데이터... 🤔 컬럼이 밀리고 데이터가 깨지는 문제의 진짜 원인과 해결 방법을 공개합니다!"

@@ -2,7 +2,7 @@
 title: "Microsoft Certification Changes & PL-300: Microsoft Power BI Data Analyst Tips 💡"
 date: 2024-11-10 11:00:00 +0900
 tags: [글또]
-categories: [Data]
+categories: [suminsidetech, bi, certification]
 ---
 
 2023년 8월 22일부터 마이크로소프트의 모든 역할 기반 및 전문가 자격증 시험에 중요한 변경 사항이 생겼다.

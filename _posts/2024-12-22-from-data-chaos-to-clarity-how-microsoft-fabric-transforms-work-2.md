@@ -2,8 +2,20 @@
 title: "From Data Chaos to Clarity: How Microsoft Fabric Transforms Work (2)"
 date: 2024-12-21 11:00:00 +0900
 tags: [글또]
-categories: [Data]
+categories: [suminsidetech, data-insight]
 ---
+
+<!-- Stick With Tech 슬로건 -->
+<section class="main-slogan" style="text-align:center; margin: 2rem 0;">
+  <h1 style="font-size:2.2rem; color:#2D5016; font-weight:700;">
+    Stick With Tech
+  </h1>
+  <p style="font-size:1.2rem; color:#444;">
+    기술이 머물고, 뿌리내리는 이야기<br>
+    <span style="color:#FF8C42;">"도입보다 정착이 더 어렵다.  
+    진짜 쓰이는 기술, 함께 만듭니다."</span>
+  </p>
+</section>
 
 # Fabric의 주요 혁신: 데이터베이스, OneLake, 그리고 AI 통합 🚀
 

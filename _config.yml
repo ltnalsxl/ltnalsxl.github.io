@@ -39,10 +39,24 @@ jekyll-archives:
 
 # Categories 설정 (Tech Innovation → Tech Stories 변경 반영)
 categories:
-  - inside-products
-  - product-analytics
-  - tech-stories 
-  - project-lab
+  - build-log
+  - automation
+  - tech-implementation
+  - template-archive
+  - career-mentoring
+  - talk-teach
+  - suminsidetech
+  - data-insight
+  - business-insight
+  - change-management
+  - workflow-optimization
+  - data-engineering
+  - bi
+  - certification
+  - ai
+  - hardware
+  - education
+  - growth
     
 # Pagination 
 paginate: 6
@@ -67,3 +81,21 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+nav:
+  - title: "About"
+    url: "/about"
+  - title: "Build Log"
+    url: "/categories/build-log/"
+  - title: "Automation"
+    url: "/categories/automation/"
+  - title: "Tech Implementation"
+    url: "/categories/tech-implementation/"
+  - title: "Templates"
+    url: "/categories/template-archive/"
+  - title: "Career & Mentoring"
+    url: "/categories/career-mentoring/"
+  - title: "Talk & Teach"
+    url: "/categories/talk-teach/"
+  - title: "SumInsideTech"
+    url: "/categories/suminsidetech/"
