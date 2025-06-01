@@ -40,10 +40,15 @@ jekyll-archives:
 # Categories 설정 (Tech Innovation → Tech Stories 변경 반영)
 categories:
   - log
-  - build-lab
-  - automation-studio
-  - suminsidetech
-  - template-workkit
+  - projects
+  - automation
+  - bi-implementation
+  - templates
+  - insights
+  - notion
+  - excel
+  - google-sheets
+  - power-bi
   - career-playbook
   - share-speak
   - business-insight
@@ -51,10 +56,6 @@ categories:
   - data-ecosystem
   - digital-transformation
   - worktech
-  - notion
-  - excel
-  - google-sheets
-  - internal-training
   - conference
   - slides
   - talk-notes
@@ -86,41 +87,15 @@ exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
 nav:
   - title: "Log"
     url: "/categories/log/"
-  - title: "Build Lab"
-    url: "/categories/build-lab/"
+  - title: "Projects"
+    url: "/categories/projects/"
     subcategories:
-      - "Project 1"
-      - "Project 2"
-      - "Project 3"
-  - title: "Automation Studio"
-    url: "/categories/automation-studio/"
-    subcategories:
-      - "Apps Script"
-      - "Power Automate"
-      - "Python Workflow"
-  - title: "SumInsideTech"
-    url: "/categories/suminsidetech/"
-    subcategories:
-      - "Business & Strategy"
-      - "Tech Trends"
-      - "Data Ecosystem"
-      - "Digital Transformation"
-      - "WorkTech"
-  - title: "Template WorkKit"
-    url: "/categories/template-workkit/"
-    subcategories:
-      - "Notion"
-      - "Excel"
-      - "Google Sheets"
-  - title: "Career Playbook"
-    url: "/categories/career-playbook/"
-  - title: "Share & Speak"
-    url: "/categories/share-speak/"
-    subcategories:
-      - "Internal Training"
-      - "Conference"
-      - "Slides"
-      - "Talk Notes"
+      - "Automation"
+      - "BI 도입기"
+  - title: "Templates"
+    url: "/categories/templates/"
+  - title: "Insights"
+    url: "/categories/insights/"
   - title: "About"
     url: "/about/"
   - title: "Contact"
