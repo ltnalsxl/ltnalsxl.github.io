@@ -2,20 +2,17 @@
 layout: page
 title: "About | Tech That Sticks"
 permalink: /about/
-comments: true
 ---
 
-# 🎯 핵심 컨셉
+# 🎯 Tech That Sticks
 
 > "기술은 '도입'보다 '정착'이 어렵습니다.  
 > 저는 사람들이 실제로 쓰는 기술을 설계하고,  
 > 스스로 쓸 수 있게 돕는 환경을 만드는 사람입니다."
 
----
+## 🏷️ 브랜드 메시지
 
-## 🏷️ 브랜드 메시지 체계
-
-### Mission Statement
+### Mission
 사람들이 실제로 쓰는 기술을 만들고,  
 지속 가능한 디지털 환경을 설계합니다.
 
@@ -30,8 +27,6 @@ comments: true
 - 완벽한 솔루션보다 **'실제로 쓰이는 솔루션'** 추구
 - 도구 소개보다 **'도구가 조직에 스며드는 방법'** 연구
 
----
-
 ## 👤 About Me
 
 데이터 분석가로 커리어를 시작해  
@@ -42,25 +37,33 @@ IT 전략, BI 환경, 자동화, 앱/템플릿 개발까지
 - **Previous**: Data Analyst @Nike Korea  
 - **Focus**: BI 설계, 자동화, 데이터 분석, 워크플로우 최적화, 데이터 실무 교육
 
----
-
 ## 🛠️ 이곳에서 다루는 것들
 
-- 🏃‍♀️ **Build Log**: 앱/템플릿 개발기, 실제 메이킹 과정
-- ⚡ **Automation Magic**: 실무 자동화, 워크플로우 최적화
-- 🌱 **Tech Implementation**: BI/자동화 도입과 정착 사례
-- 📦 **Template Archive**: 실용 템플릿/도구 모음
-- 🚀 **Career & Mentoring**: 커리어 전환, 멘토링, 성장 스토리
-- 💬 **Talk & Teach**: 교육, 발표, 커뮤니티 활동
+### 🧪 Project Lab
+- 자동화 설계와 구현
+- BI 도입과 정착 과정
+- 실무 프로젝트 사례
 
----
+### 📋 Templates
+- Notion 템플릿
+- Excel/Google Sheets 도구
+- Power BI 대시보드
+
+### 💡 Insights
+- 기술 트렌드 분석
+- 커리어 관점
+- 실무 인사이트
+
+### 📝 Log
+- 개인 회고
+- 일상 속 기술 이야기
+- 자기 실험 기록
 
 ## 📬 Contact
 
-- 📧 Email: your@email.com
+- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
 - 💼 LinkedIn: [your-linkedin]
-- 🐱 GitHub: [your-github]
-- ☕ Coffee Chat: [calendly-link]
+- 🐱 GitHub: [github.com/ltnalsxl](https://github.com/ltnalsxl)
 
 **💡 Making technology work for everyone, one step at a time.**
 
