@@ -61,8 +61,8 @@ IT 전략, BI 환경, 자동화, 앱/템플릿 개발까지
 
 ## 📬 Contact
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💼 LinkedIn: [your-linkedin]
+- 📧 Email: [fltnadls1011@gmail.com](mailto:fltnadls1011@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
 - 🐱 GitHub: [github.com/ltnalsxl](https://github.com/ltnalsxl)
 
 **💡 Making technology work for everyone, one step at a time.**
@@ -157,7 +157,7 @@ Connect with me 🤝:
 <ul>
   <li>🐱 <strong>GitHub:</strong> <a href="https://github.com/ltnalsxl" target="_blank">github.com/ltnalsxl</a></li>
   <li>💼 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></li>
-  <li>✉️ <strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+  <li>✉️ <strong>Email:</strong> <a href="mailto:fltnadls1011@gmail.com">fltnadls1011@gmail.com</a></li>
 </ul>
 </div>
 
