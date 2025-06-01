@@ -1,74 +1,87 @@
 ---
 layout: default
-title: Home
 ---
 
-{% if page.url == "/" %}
-
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
+<!-- Hero Section -->
+<div class="jumbotron jumbotron-fluid bg-light">
+    <div class="container">
+        <h1 class="display-4">Tech That Sticks</h1>
+        <p class="lead">기술 도입보다 정착에 집중하는 실무 중심 테크 블로그</p>
+        <hr class="my-4">
+        <p>실제로 쓰이는 기술, 자동화, BI, 템플릿, 실전 사례와 인사이트를 공유합니다.</p>
     </div>
-    <div class="row">
-
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
-
-    </div>
-</section>
-
-{% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
 </div>
 
-<section class="hero" style="text-align:center; padding: 3rem 0; background: #f9f9f9;">
-  <h1 style="font-size:2.5rem; color:#2D5016; font-weight:700; margin-bottom:0.5em;">
-    Tech That Sticks
-  </h1>
-  <p style="font-size:1.2rem; color:#444; margin-bottom:1.5em;">
-    기술은 도입보다 <b style="color:#FF8C42;">정착</b>이 더 어렵다.<br>
-    <span style="color:#5DADE2;">"실제로 쓰이는 기술, 사람에게 스며드는 환경을 만듭니다."</span>
-  </p>
-  <a href="/about" class="btn" style="margin:0 0.5em;">About</a>
-  <a href="/categories/build-log/" class="btn btn-secondary" style="margin:0 0.5em;">Build Log</a>
-  <a href="/categories/suminsidetech/" class="btn btn-accent" style="margin:0 0.5em;">SumInsideTech</a>
-</section>
+<!-- Main Categories -->
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">🧪 Project Lab</h2>
+                    <p class="card-text">자동화 설계부터 BI 구축까지, 실제 프로젝트의 기록</p>
+                    <a href="{{ site.baseurl }}/categories/project-lab/" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">📋 Templates</h2>
+                    <p class="card-text">실무에서 바로 쓸 수 있는 템플릿과 도구</p>
+                    <a href="{{ site.baseurl }}/categories/templates/" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">💡 Insights</h2>
+                    <p class="card-text">기술 트렌드와 커리어에 대한 깊은 통찰</p>
+                    <a href="{{ site.baseurl }}/categories/insights/" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">📝 Log</h2>
+                    <p class="card-text">개인 회고와 일상 속 기술 이야기</p>
+                    <a href="{{ site.baseurl }}/categories/log/" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Posts -->
+<div class="container">
+    <h2 class="mb-4">최근 포스트</h2>
+    <div class="row">
+        {% assign posts = site.posts | sort: 'date' | reverse %}
+        {% for post in posts limit:4 %}
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                    <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                    <div class="card-footer bg-transparent border-0">
+                        <small class="text-muted">
+                            {{ post.date | date: "%Y년 %m월 %d일" }} | 
+                            {% for category in post.categories %}
+                            <a href="{{ site.baseurl }}/categories/{{ category | downcase }}">{{ category }}</a>
+                            {% unless forloop.last %}, {% endunless %}
+                            {% endfor %}
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
