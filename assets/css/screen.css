@@ -924,3 +924,19 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+:root {
+  --primary-color: #2D5016;
+  --secondary-color: #FF8C42;
+  --accent-color: #5DADE2;
+  --bg-light: #f9f9f9;
+}
+
+body { background: var(--bg-light); color: #222; }
+.btn { background: var(--primary-color); color: #fff !important; border-radius: 6px; padding: 0.5em 1.2em; font-weight: 600; }
+.btn:hover { background: var(--secondary-color); }
+.btn-secondary { background: var(--secondary-color); }
+.btn-accent { background: var(--accent-color); color: #fff !important; }
+h1, h2, h3 { color: var(--primary-color); }
+strong, b, .highlight { color: var(--secondary-color); }
+.section-title span { border-bottom: 2px solid var(--primary-color); color: var(--primary-color); }

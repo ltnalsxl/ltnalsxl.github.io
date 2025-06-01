@@ -1,31 +1,34 @@
 ---
 layout: page
-title: "Stick With Tech | 기술이 머물고, 뿌리내리는 이야기"
+title: "About | Tech That Sticks"
 permalink: /about/
 comments: true
 ---
 
-# 🌱 Stick With Tech
+# 🎯 핵심 컨셉
 
-> "기술은 도입보다 정착이 어렵다.  
+> "기술은 '도입'보다 '정착'이 어렵습니다.  
 > 저는 사람들이 실제로 쓰는 기술을 설계하고,  
 > 스스로 쓸 수 있게 돕는 환경을 만드는 사람입니다."
 
 ---
 
-## 🎯 Mission
+## 🏷️ 브랜드 메시지 체계
 
+### Mission Statement
 사람들이 실제로 쓰는 기술을 만들고,  
 지속 가능한 디지털 환경을 설계합니다.
 
----
+### 핵심 가치
+1. **Adoption over Innovation** - 혁신보다 실제 사용
+2. **People-First Technology** - 기술이 아닌 사람 중심
+3. **Sustainable Implementation** - 지속 가능한 구현
+4. **Practical Wisdom** - 실무에서 검증된 지혜
 
-## 💡 핵심 가치
-
-1. **Adoption over Innovation** — 혁신보다 실제 사용
-2. **People-First Technology** — 기술이 아닌 사람 중심
-3. **Sustainable Implementation** — 지속 가능한 구현
-4. **Practical Wisdom** — 실무에서 검증된 지혜
+### 독특한 관점
+- 기술 자체보다 **'기술이 정착되는 과정'**에 집중
+- 완벽한 솔루션보다 **'실제로 쓰이는 솔루션'** 추구
+- 도구 소개보다 **'도구가 조직에 스며드는 방법'** 연구
 
 ---
 
@@ -41,22 +44,23 @@ IT 전략, BI 환경, 자동화, 앱/템플릿 개발까지
 
 ---
 
-## 🛠️ 다루는 주제
+## 🛠️ 이곳에서 다루는 것들
 
-- Build Log (앱/템플릿 개발기)
-- 실무 자동화
-- 기술 정착 사례
-- 실용 템플릿
-- 커리어/멘토링
-- 교육/강연
+- 🏃‍♀️ **Build Log**: 앱/템플릿 개발기, 실제 메이킹 과정
+- ⚡ **Automation Magic**: 실무 자동화, 워크플로우 최적화
+- 🌱 **Tech Implementation**: BI/자동화 도입과 정착 사례
+- 📦 **Template Archive**: 실용 템플릿/도구 모음
+- 🚀 **Career & Mentoring**: 커리어 전환, 멘토링, 성장 스토리
+- 💬 **Talk & Teach**: 교육, 발표, 커뮤니티 활동
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: [your-email]
+- 📧 Email: your@email.com
 - 💼 LinkedIn: [your-linkedin]
 - 🐱 GitHub: [your-github]
+- ☕ Coffee Chat: [calendly-link]
 
 **💡 Making technology work for everyone, one step at a time.**
 
