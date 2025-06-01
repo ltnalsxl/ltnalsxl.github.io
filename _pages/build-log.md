@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Build Log"
-permalink: /categories/build-log/
+title: "Log"
+permalink: /categories/log/
 ---
 
-# 🏗️ Build Log
-앱/템플릿 개발기, 실제 메이킹 과정, 실전 경험을 기록합니다. 
+# 📝 Log
+개인 회고 기록을 담은 공간입니다. 

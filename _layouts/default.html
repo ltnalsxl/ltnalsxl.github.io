@@ -64,34 +64,22 @@
         <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
-
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
+                {% for item in site.nav %}
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categories
+                    <a class="nav-link dropdown-toggle" href="{{ item.url }}" id="navbarDropdown{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ item.title }}
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories/inside-products">Inside Products</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories/product-analytics">Product Analytics</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories/tech-stories">Tech Stories</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories/project-lab">Project Lab</a>
-                        <a class="dropdown-item" href="{{ site.baseurl }}/categories/career-growth">Career & Growth</a>
+                    {% if item.subcategories %}
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+                        {% for subcategory in item.subcategories %}
+                        <a class="dropdown-item" href="{{ site.baseurl }}/categories/{{ subcategory | downcase | replace: ' ', '-' }}">{{ subcategory }}</a>
+                        {% endfor %}
                     </div>
+                    {% endif %}
                 </li>
+                {% endfor %}
 
                 {% include search-lunr.html %}
-
             </ul>
 
         <!-- End Menu -->
