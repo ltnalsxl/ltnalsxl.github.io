@@ -92,6 +92,9 @@
                 {% endfor %}
 
                 {% include search-lunr.html %}
+                <li class="nav-item d-flex align-items-center">
+                    <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-2" type="button">🌓</button>
+                </li>
             </ul>
 
         <!-- End Menu -->
@@ -202,6 +205,7 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
+<script src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
 
 <script>
 $(document).ready(function() {

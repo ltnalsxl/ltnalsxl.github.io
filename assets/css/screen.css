@@ -940,3 +940,8 @@ body { background: var(--bg-light); color: #222; }
 h1, h2, h3 { color: var(--primary-color); }
 strong, b, .highlight { color: var(--secondary-color); }
 .section-title span { border-bottom: 2px solid var(--primary-color); color: var(--primary-color); }
+[data-theme='dark'] {
+  --bg-light: #121212;
+  color: #e0e0e0;
+  background: var(--bg-light);
+}
