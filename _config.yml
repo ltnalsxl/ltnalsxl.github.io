@@ -37,7 +37,7 @@ jekyll-archives:
   permalinks:
     category: '/category/:name/'
 
-# Categories 설정 (Tech Innovation → Tech Stories 변경 반영)
+# Categories used to organize posts
 categories:
   - log
   - project-lab
