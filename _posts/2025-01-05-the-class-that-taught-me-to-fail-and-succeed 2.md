@@ -1,5 +1,5 @@
 ---
-## title: "비개발자의 AI 서비스 개발기 - Part 1: 실패와 문제 정의의 시작"
+title: "비개발자의 AI 서비스 개발기 - Part 1: 실패와 문제 정의의 시작"
 date: 2025-01-05 11:00:00 +0900
 tags: [글또]
 categories: [career-mentoring, education]
