@@ -4,11 +4,13 @@ title: "About | Tech That Sticks"
 permalink: /about/
 ---
 
-# 🎯 Tech That Sticks
+<div class="jumbotron jumbotron-fluid hero-gradient text-center text-white mb-4">
+  <div class="container">
+    <h1 class="display-4">Tech That Sticks</h1>
+    <p class="lead">기술이 머물고 뿌리내리는 과정을 연구합니다.</p>
+  </div>
+</div>
 
-> "기술은 '도입'보다 '정착'이 어렵습니다.  
-> 저는 사람들이 실제로 쓰는 기술을 설계하고,  
-> 스스로 쓸 수 있게 돕는 환경을 만드는 사람입니다."
 
 ## 🏷️ 브랜드 메시지
 

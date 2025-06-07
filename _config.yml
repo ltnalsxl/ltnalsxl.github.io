@@ -5,6 +5,7 @@ description: "기술 도입보다 정착에 집중하는 실무 중심 테크 �
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
+lang: ko
 google_analytics: G-LFFKMBQP12  # GA4 Tracking ID 'G-LFFKMBQP12'
 disqus: 'ltnalsxl'
 mailchimp-list: ''
