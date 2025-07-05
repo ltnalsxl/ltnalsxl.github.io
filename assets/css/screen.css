@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: #00ab6b;
+    color: var(--link-color, #0d6efd);
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: var(--hover-color, #0a58ca);
     text-decoration: none;
 }
 
@@ -926,15 +926,16 @@ iframe {
 }
 
 :root {
-  --primary-color: #2D5016;
-  --secondary-color: #FF8C42;
-  --accent-color: #5DADE2;
-  --bg-light: #f9f9f9;
+  --primary-color: #333333;
+  --secondary-color: #666666;
+  --accent-color: #0d6efd;
+  --hover-color: #0a58ca;
+  --bg-light: #ffffff;
 }
 
 body { background: var(--bg-light); color: #222; }
 .btn { background: var(--primary-color); color: #fff !important; border-radius: 6px; padding: 0.5em 1.2em; font-weight: 600; }
-.btn:hover { background: var(--secondary-color); }
+.btn:hover { background: var(--hover-color, #0a58ca); }
 .btn-secondary { background: var(--secondary-color); }
 .btn-accent { background: var(--accent-color); color: #fff !important; }
 h1, h2, h3 { color: var(--primary-color); }
