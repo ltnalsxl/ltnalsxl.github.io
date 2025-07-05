@@ -545,16 +545,6 @@ ul.tags li a:hover {
     margin-bottom: 1.2rem;
 }
 
-.btn.follow {
-    border-color: #333333;
-    color: #333333;
-    padding: 3px 10px;
-    text-align: center;
-    border-radius: 999em;
-    font-size: 0.85rem;
-    display: inline-block;
-}
-
 .btn.subscribe {
     background-color: #333333;
     border-color: #333333;
@@ -567,10 +557,6 @@ ul.tags li a:hover {
     text-transform: uppercase;
 }
 
-.post-top-meta .btn.follow {
-    margin-left: 5px;
-    margin-top: -4px;
-}
 
 .alertbar {
     box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, .0785);
@@ -651,12 +637,6 @@ ul.tags li a:hover {
     color: rgba(0, 0, 0, .6);
 }
 
-.post-top-meta.authorpage .btn.follow {
-    padding: 7px 20px;
-    margin-top: 10px;
-    margin-left: 0;
-    font-size: 0.9rem;
-}
 
 .graybg.authorpage {
     border-top: 1px solid #f0f0f0;
