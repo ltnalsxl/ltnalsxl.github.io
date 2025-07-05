@@ -3,14 +3,19 @@ layout: default
 ---
 
 <!-- Hero Section -->
-<div class="jumbotron jumbotron-fluid bg-light">
+<section class="hero">
     <div class="container">
-        <h1 class="display-4">Tech That Sticks</h1>
-        <p class="lead">기술 도입보다 정착에 집중하는 실무 중심 테크 블로그</p>
-        <hr class="my-4">
-        <p>실제로 쓰이는 기술, 자동화, BI, 템플릿, 실전 사례와 인사이트를 공유합니다.</p>
+        <div class="hero-content">
+            <h1>Tech That Sticks</h1>
+            <div class="subtitle">실무 중심 테크 블로그</div>
+            <div class="description">기술 도입보다 정착에 집중하는 인사이트와 프로젝트를 공유합니다.</div>
+            <div class="cta-buttons">
+                <a href="#recent-posts" class="cta-button primary">최근 포스트</a>
+                <a href="{{ site.baseurl }}/about/" class="cta-button secondary">About Me</a>
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
 <!-- Main Categories -->
 <div class="container">
@@ -57,7 +62,7 @@ layout: default
 </div>
 
 <!-- Recent Posts -->
-<div class="container">
+<div class="container" id="recent-posts">
     <h2 class="mb-4">최근 포스트</h2>
     <div class="row">
         {% assign posts = site.posts | sort: 'date' | reverse %}
