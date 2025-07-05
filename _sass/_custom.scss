@@ -8,6 +8,8 @@
   --link-color: #1a73e8;         // link blue
   --hover-color: #1557b0;        // link hover
   --border-color: #dadce0;       // light border
+  --hero-gradient-start: #f0f5ff;   // light tint of primary
+  --hero-gradient-end: #e8fff3;     // light tint of accent
 
   // font settings
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -95,6 +97,13 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.card-title {
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 // 헤더 스타일
@@ -117,6 +126,7 @@ h6 { font-size: var(--text-lg); }
 .navbar {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--border-color);
   font-family: var(--font-primary);
   font-weight: 500;
 
@@ -206,7 +216,7 @@ hr {
   display: flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e8f0fe 100%);
+  background: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-end) 100%);
   overflow: hidden;
 }
 
@@ -222,14 +232,14 @@ hr {
 .hero::before {
   top: -50%;
   right: -50%;
-  background: radial-gradient(circle, rgba(66, 133, 244, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(66, 133, 244, 0.15) 0%, transparent 70%);
   animation: float 20s ease-in-out infinite;
 }
 
 .hero::after {
   bottom: -50%;
   left: -50%;
-  background: radial-gradient(circle, rgba(52, 168, 83, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(52, 168, 83, 0.15) 0%, transparent 70%);
   animation: float 25s ease-in-out infinite reverse;
 }
 
