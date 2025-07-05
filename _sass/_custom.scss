@@ -315,3 +315,9 @@ hr {
   --hover-color: #ffffff;
   --border-color: #2e2e33;
 }
+
+#search-results {
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+}

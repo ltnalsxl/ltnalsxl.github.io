@@ -899,3 +899,9 @@ strong, b, .highlight { color: var(--secondary-color); }
   color: #e0e0e0;
   background: var(--bg-light);
 }
+
+#search-results {
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+}

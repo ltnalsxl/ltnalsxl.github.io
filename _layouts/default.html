@@ -91,6 +91,14 @@
                 </li>
                 {% endfor %}
 
+                <li class="nav-item">
+                    <form class="form-inline position-relative">
+                        <input id="search-input" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search-icon" type="button"><i class="fa fa-search"></i></button>
+                        <ul id="search-results" class="list-group position-absolute w-100"></ul>
+                    </form>
+                </li>
+
                 <li class="nav-item d-flex align-items-center">
                     <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-2" type="button">🌓</button>
                 </li>
@@ -170,12 +178,14 @@
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
 {% endif %}
 
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
 <script src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
+<script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>
 
 <script>
 $(document).ready(function() {
