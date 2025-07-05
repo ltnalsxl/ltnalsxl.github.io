@@ -21,15 +21,3 @@ Copyright (C) 2019 Sal, https://www.wowthemes.net
 4. Make necessary changes, commit, push and open a pull request on GitHub.
 
 Thank you!
-
-## Player name mapping
-
-The `_data/player_name_map.json` file maps Korean player names to English equivalents. Use `scripts/update_players.py` to apply these mappings to your player datasets.
-
-Example usage:
-
-```bash
-python scripts/update_players.py players.json -o players_en.json
-```
-
-This will read `players.json`, add `name_en` fields when a Korean name matches the mapping file, and write the result to `players_en.json`.
