@@ -884,4 +884,5 @@ strong, b, .highlight { color: var(--secondary-color); }
   max-height: 300px;
   overflow-y: auto;
   z-index: 1000;
+  top: 100%;
 }
