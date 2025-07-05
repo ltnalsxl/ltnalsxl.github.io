@@ -337,7 +337,19 @@ hr {
 [data-theme='dark'] {
   --background-color: #0d0d0f;
   --text-color: #d7d7db;
-  --link-color: #7f5af0;
-  --hover-color: #a78bfa;
+  --link-color: #9ec5fe; /* lighter link color for dark mode */
+  --hover-color: #bfd3ff; /* lighter hover color */
+  --accent-color: #4d9efb; /* softened accent */
   --border-color: #2e2e33;
+
+  /* improve visibility of icons and logos */
+  .share ul li i.fa,
+  .refresh-btn {
+    color: var(--text-color);
+    border-color: var(--border-color);
+  }
+
+  img.team-logo {
+    filter: invert(1) brightness(1.2);
+  }
 }

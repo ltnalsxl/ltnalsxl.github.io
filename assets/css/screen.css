@@ -896,6 +896,18 @@ strong, b, .highlight { color: var(--secondary-color); }
 .section-title span { border-bottom: 2px solid var(--primary-color); color: var(--primary-color); }
 [data-theme='dark'] {
   --bg-light: #121212;
+  --accent-color: #4d9efb;
+  --hover-color: #bfd3ff;
   color: #e0e0e0;
   background: var(--bg-light);
+}
+
+[data-theme='dark'] .share ul li i.fa,
+[data-theme='dark'] .refresh-btn {
+  color: var(--text-color, #e0e0e0);
+  border-color: var(--border-color, #444);
+}
+
+[data-theme='dark'] img.team-logo {
+  filter: invert(1) brightness(1.2);
 }
