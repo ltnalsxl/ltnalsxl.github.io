@@ -12,12 +12,12 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: var(--link-color, #0d6efd);
+    color: var(--link-color, #333333);
     transition: all 0.2s;
 }
 
 a:hover {
-    color: var(--hover-color, #0a58ca);
+    color: var(--hover-color, #555555);
     text-decoration: none;
 }
 
@@ -546,8 +546,8 @@ ul.tags li a:hover {
 }
 
 .btn.follow {
-    border-color: #02B875;
-    color: #1C9963;
+    border-color: #333333;
+    color: #333333;
     padding: 3px 10px;
     text-align: center;
     border-radius: 999em;
@@ -556,8 +556,8 @@ ul.tags li a:hover {
 }
 
 .btn.subscribe {
-    background-color: #1C9963;
-    border-color: #1C9963;
+    background-color: #333333;
+    border-color: #333333;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     border-radius: 30px;
@@ -602,8 +602,8 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #1C9963;
-    border: 1px solid #1C9963;
+    background-color: #333333;
+    border: 1px solid #333333;
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
@@ -881,14 +881,14 @@ iframe {
 :root {
   --primary-color: #333333;
   --secondary-color: #666666;
-  --accent-color: #0d6efd;
-  --hover-color: #0a58ca;
+  --accent-color: #333333;
+  --hover-color: #555555;
   --bg-light: #ffffff;
 }
 
 body { background: var(--bg-light); color: #222; }
 .btn { background: var(--primary-color); color: #fff !important; border-radius: 6px; padding: 0.5em 1.2em; font-weight: 600; }
-.btn:hover { background: var(--hover-color, #0a58ca); }
+.btn:hover { background: var(--hover-color, #555555); }
 .btn-secondary { background: var(--secondary-color); }
 .btn-accent { background: var(--accent-color); color: #fff !important; }
 h1, h2, h3 { color: var(--primary-color); }
