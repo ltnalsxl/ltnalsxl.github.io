@@ -228,6 +228,12 @@ hr {
   max-width: 600px;
 }
 
+.hero-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+  animation: slideInUp 1s ease;
+}
+
 .hero h1 {
   font-size: var(--text-5xl);
   font-weight: var(--font-normal);
