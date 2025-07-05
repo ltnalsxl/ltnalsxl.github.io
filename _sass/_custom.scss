@@ -324,3 +324,9 @@ hr {
   --hero-gradient-start: #1a1a1d;
   --hero-gradient-end: #2e2e33;
 }
+
+#search-results {
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+}
