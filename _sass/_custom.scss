@@ -1,15 +1,15 @@
-// Google inspired color theme
+// Modern vibrant color theme
 :root {
-  --primary-color: #4285f4;      // Google blue
-  --secondary-color: #5f6368;    // subtle grey
-  --accent-color: #34a853;       // Google green
+  --primary-color: #7f5af0;      // vibrant purple
+  --secondary-color: #72757e;    // neutral gray
+  --accent-color: #2cb67d;       // teal accent
   --background-color: #ffffff;   // white background
-  --text-color: #202124;         // dark grey text
-  --link-color: #1a73e8;         // link blue
-  --hover-color: #1557b0;        // link hover
-  --border-color: #dadce0;       // light border
-  --hero-gradient-start: #f0f5ff;   // light tint of primary
-  --hero-gradient-end: #e8fff3;     // light tint of accent
+  --text-color: #16161a;         // dark text
+  --link-color: #7f5af0;         // primary as link color
+  --hover-color: #5d3fd3;        // darker purple
+  --border-color: #d0d7de;       // light border
+  --hero-gradient-start: #f7f7ff;   // subtle purple tint
+  --hero-gradient-end: #e8fff8;     // subtle teal tint
 
   // font settings
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -123,18 +123,19 @@ h5 { font-size: var(--text-xl); }
 h6 { font-size: var(--text-lg); }
 
 // 네비게이션 스타일
+
 .navbar {
-  background-color: white;
+  background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: none;
   font-family: var(--font-primary);
   font-weight: 500;
 
   .nav-link {
-    color: var(--text-color);
-    
+    color: #ffffff;
     &:hover {
-      color: var(--primary-color);
+      color: #ffffff;
+      text-decoration: underline;
     }
   }
 }
@@ -232,14 +233,14 @@ hr {
 .hero::before {
   top: -50%;
   right: -50%;
-  background: radial-gradient(circle, rgba(66, 133, 244, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(127, 90, 240, 0.15) 0%, transparent 70%);
   animation: float 20s ease-in-out infinite;
 }
 
 .hero::after {
   bottom: -50%;
   left: -50%;
-  background: radial-gradient(circle, rgba(52, 168, 83, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(44, 182, 125, 0.15) 0%, transparent 70%);
   animation: float 25s ease-in-out infinite reverse;
 }
 
@@ -297,21 +298,21 @@ hr {
 }
 
 .cta-button.primary {
-  background: #1a73e8;
+  background: var(--primary-color);
   color: #fff;
-  box-shadow: 0 2px 10px rgba(26, 115, 232, 0.3);
+  box-shadow: 0 2px 10px rgba(127, 90, 240, 0.3);
 }
 
 .cta-button.primary:hover {
-  background: #1557b0;
+  background: var(--hover-color);
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(26, 115, 232, 0.4);
+  box-shadow: 0 4px 20px rgba(127, 90, 240, 0.4);
 }
 
 .cta-button.secondary {
   background: #fff;
-  color: #1a73e8;
-  border: 1px solid #dadce0;
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -334,9 +335,9 @@ hr {
 
 // Dark theme overrides
 [data-theme='dark'] {
-  --background-color: #121212;
-  --text-color: #e0e0e0;
-  --link-color: #70a1ff;
-  --hover-color: #a4b0ff;
-  --border-color: #333;
+  --background-color: #0d0d0f;
+  --text-color: #d7d7db;
+  --link-color: #7f5af0;
+  --hover-color: #a78bfa;
+  --border-color: #2e2e33;
 }
