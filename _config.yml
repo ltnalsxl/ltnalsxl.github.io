@@ -2,8 +2,8 @@
 name: "Tech That Sticks"
 title: "Tech That Sticks | 기술이 머물고, 뿌리내리는 이야기"
 description: "기술 도입보다 정착에 집중하는 실무 중심 테크 블로그. 실제로 쓰이는 기술, 자동화, BI, 템플릿, 실전 사례와 인사이트."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/TTS.png'
+favicon: 'assets/images/TTS.png'
 baseurl: ""
 google_analytics: G-LFFKMBQP12  # GA4 Tracking ID 'G-LFFKMBQP12'
 disqus: 'ltnalsxl'
