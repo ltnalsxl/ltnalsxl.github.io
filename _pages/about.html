@@ -521,6 +521,48 @@ permalink: /about/
             line-height: 1.6;
         }
 
+        /* Project Modal */
+        .project-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .project-modal.active {
+            display: flex;
+        }
+
+        .project-modal .modal-content {
+            background: white;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            padding: 24px;
+            position: relative;
+            text-align: center;
+        }
+
+        .project-modal .close-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .project-modal img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
         .tech-stack {
             display: flex;
             flex-wrap: wrap;
@@ -764,7 +806,6 @@ permalink: /about/
                 </div>
             </div>
         </section>
-
         <section id="skills" class="section">
             <div class="container">
                 <h2>Core Competencies</h2>
@@ -833,7 +874,7 @@ permalink: /about/
             <div class="container">
                 <h2>Key Projects & Achievements</h2>
                 <div class="projects-grid">
-                    <div class="project-card">
+                    <div class="project-card" data-target="project1-modal">
                         <div class="project-header">
                             <h3>JikgwanGaja</h3>
                             <div class="subtitle">Baseball Fan Experience Platform</div>
@@ -848,7 +889,7 @@ permalink: /about/
                             </div>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-target="project2-modal">
                         <div class="project-header">
                             <h3>BigContest 2021</h3>
                             <div class="subtitle">Grand Prize Winner</div>
@@ -863,7 +904,7 @@ permalink: /about/
                             </div>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-target="project3-modal">
                         <div class="project-header">
                             <h3>Research Publication</h3>
                             <div class="subtitle">ACS Omega 2022</div>
@@ -878,7 +919,7 @@ permalink: /about/
                             </div>
                         </div>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-target="project4-modal">
                         <div class="project-header">
                             <h3>Food Waste Reduction Dashboard</h3>
                             <div class="subtitle">Vizable Runway 2022 Speaker</div>
@@ -897,6 +938,37 @@ permalink: /about/
             </div>
         </section>
 
+<div id="project1-modal" class="project-modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="{{ site.baseurl }}/assets/images/1.jpg" alt="JikgwanGaja">
+        <p>Built a React + Firebase web application to help baseball fans quickly access KBO lineups and chants, enhancing in-stadium experience with real-time data automation.</p>
+    </div>
+</div>
+
+<div id="project2-modal" class="project-modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="{{ site.baseurl }}/assets/images/2.jpg" alt="BigContest 2021">
+        <p>Developed predictive models and introduced "barrel" metrics for KBO. Conducted cross-league statistical analysis between KBO and MLB, featured in media for innovative contributions.</p>
+    </div>
+</div>
+
+<div id="project3-modal" class="project-modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="{{ site.baseurl }}/assets/images/3.jpg" alt="Research Publication">
+        <p>First Author: "Novel Solubility Prediction Models: Molecular Fingerprints and Physicochemical Features vs Graph Convolutional Neural Networks"</p>
+    </div>
+</div>
+
+<div id="project4-modal" class="project-modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="{{ site.baseurl }}/assets/images/4.jpg" alt="Food Waste Reduction Dashboard">
+        <p>Built data models and designed dashboard to reduce food waste in e-commerce fresh goods sector, optimizing inventory and improving operational efficiency.</p>
+    </div>
+</div>
         <section id="contact" class="section contact">
             <div class="container">
                 <h2>Let's Connect</h2>
@@ -927,6 +999,22 @@ permalink: /about/
             </div>
         </section>
     </main>
+<script>
+$(document).ready(function(){
+  $(".project-card").on("click", function(){
+    var target = $(this).data("target");
+    $("#"+target).addClass("active");
+  });
+  $(".project-modal .close-btn").on("click", function(){
+    $(this).closest(".project-modal").removeClass("active");
+  });
+  $(".project-modal").on("click", function(e){
+    if($(e.target).is(".project-modal")){
+      $(this).removeClass("active");
+    }
+  });
+});
+</script>
 </body>
 </html>
 
