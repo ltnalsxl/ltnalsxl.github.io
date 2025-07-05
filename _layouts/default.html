@@ -35,7 +35,7 @@
 {% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{layout}}">
+<body class="{{layout}} {% if page.body_class %}{{ page.body_class }}{% endif %}">
 	<!-- defer loading of font and font awesome -->
         <noscript id="deferred-styles">
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -112,12 +112,14 @@
 
 <!-- Site Title
 ================================================== -->
+{% unless page.body_class == 'index-page' %}
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
         {{ site.description }}
     </p>
 </div>
+{% endunless %}
 
 <!-- Content
 ================================================== -->
