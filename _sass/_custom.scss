@@ -65,7 +65,7 @@ a {
 
 // 버튼 스타일
 .btn {
-  background-color: var(--primary-color);
+  background-color: var(--button-bg-color, var(--primary-color));
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -75,7 +75,7 @@ a {
   font-weight: 500;
 
   &:hover {
-    background-color: var(--hover-color);
+    background-color: var(--button-hover-color, var(--hover-color));
   }
 
   &-outline {
@@ -314,4 +314,13 @@ hr {
   --link-color: #bbbbbb;
   --hover-color: #ffffff;
   --border-color: #2e2e33;
+
+  // additional color overrides
+  --primary-color: #4b4b4b;
+  --secondary-color: #7a7a7a;
+  --accent-color: #9e9e9e;
+  --button-bg-color: #4b4b4b;
+  --button-hover-color: #6a6a6a;
+  --hero-gradient-start: #1a1a1d;
+  --hero-gradient-end: #2e2e33;
 }
