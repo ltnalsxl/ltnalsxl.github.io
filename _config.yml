@@ -98,5 +98,7 @@ nav:
     url: "/categories/insights/"
   - title: "About"
     url: "/about/"
+  - title: "Portfolio"
+    url: "/portfolio/"
   - title: "Contact"
     url: "/contact/"
