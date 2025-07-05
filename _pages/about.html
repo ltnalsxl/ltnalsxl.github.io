@@ -1,0 +1,932 @@
+---
+layout: null
+permalink: /about/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumin Lee - Data Engineer & IT Transformation Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #202124;
+            background: #fff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header Section */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 500;
+            color: #1a73e8;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo::before {
+            content: '';
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #4285f4, #34a853, #fbbc05, #ea4335);
+            border-radius: 50%;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            color: #5f6368;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: #1a73e8;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #1a73e8;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e8f0fe 100%);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(66, 133, 244, 0.1) 0%, transparent 70%);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -50%;
+            left: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(52, 168, 83, 0.1) 0%, transparent 70%);
+            animation: float 25s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        .hero-content {
+            z-index: 1;
+            max-width: 600px;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            color: #202124;
+            line-height: 1.2;
+            animation: slideInUp 1s ease;
+        }
+
+        .hero .subtitle {
+            font-size: 24px;
+            color: #5f6368;
+            margin-bottom: 8px;
+            font-weight: 400;
+            animation: slideInUp 1s ease 0.2s both;
+        }
+
+        .hero .description {
+            font-size: 18px;
+            color: #5f6368;
+            margin-bottom: 32px;
+            line-height: 1.5;
+            animation: slideInUp 1s ease 0.4s both;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            animation: slideInUp 1s ease 0.6s both;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 24px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            gap: 8px;
+        }
+
+        .cta-button.primary {
+            background: #1a73e8;
+            color: white;
+            box-shadow: 0 2px 10px rgba(26, 115, 232, 0.3);
+        }
+
+        .cta-button.primary:hover {
+            background: #1557b0;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(26, 115, 232, 0.4);
+        }
+
+        .cta-button.secondary {
+            background: white;
+            color: #1a73e8;
+            border: 1px solid #dadce0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-button.secondary:hover {
+            background: #f8f9fa;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Main Content */
+        .main-content {
+            background: white;
+            position: relative;
+            z-index: 2;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 48px;
+            color: #202124;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 48px;
+            height: 4px;
+            background: linear-gradient(90deg, #4285f4, #34a853);
+            border-radius: 2px;
+        }
+
+        /* About Section */
+        .about {
+            background: #f8f9fa;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        .about-image {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #4285f4, #34a853);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+            font-weight: 500;
+            margin: 0 auto;
+            box-shadow: 0 8px 30px rgba(66, 133, 244, 0.3);
+        }
+
+        .about-text {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #5f6368;
+        }
+
+        .about-text p {
+            margin-bottom: 16px;
+        }
+
+        .about-text strong {
+            color: #202124;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid #e8eaed;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .skill-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            color: white;
+            font-size: 24px;
+            background: linear-gradient(135deg, #4285f4, #34a853);
+        }
+
+        .skill-card h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 12px;
+            color: #202124;
+        }
+
+        .skill-card p {
+            color: #5f6368;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* Experience Section */
+        .experience {
+            background: #f8f9fa;
+        }
+
+        .experience-timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .experience-timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #4285f4, #34a853);
+            transform: translateX(-50%);
+        }
+
+        .experience-item {
+            position: relative;
+            margin: 40px 0;
+            width: 45%;
+        }
+
+        .experience-item:nth-child(odd) {
+            left: 0;
+        }
+
+        .experience-item:nth-child(even) {
+            left: 55%;
+        }
+
+        .experience-card {
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: transform 0.3s ease;
+            border: 1px solid #e8eaed;
+        }
+
+        .experience-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .experience-card::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 16px;
+            height: 16px;
+            background: #4285f4;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #4285f4;
+        }
+
+        .experience-item:nth-child(odd) .experience-card::before {
+            right: -32px;
+        }
+
+        .experience-item:nth-child(even) .experience-card::before {
+            left: -32px;
+        }
+
+        .experience-card h3 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #202124;
+            margin-bottom: 8px;
+        }
+
+        .experience-card .company {
+            color: #1a73e8;
+            font-weight: 500;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .experience-card .duration {
+            color: #5f6368;
+            font-size: 12px;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .experience-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience-card li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: #5f6368;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .experience-card li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #34a853;
+            font-weight: bold;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #e8eaed;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+            color: white;
+            padding: 32px;
+            text-align: center;
+            position: relative;
+        }
+
+        .project-header::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #34a853;
+        }
+
+        .project-header h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .project-header .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .project-body {
+            padding: 32px;
+        }
+
+        .project-body p {
+            color: #5f6368;
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .tech-tag {
+            background: #e8f0fe;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            color: #1a73e8;
+            border: 1px solid #d2e3fc;
+            font-weight: 500;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+            color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+
+        .contact h2::after {
+            background: white;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 32px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-item:hover {
+            transform: translateY(-4px);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .contact-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            font-size: 20px;
+        }
+
+        .contact-item div {
+            text-align: left;
+        }
+
+        .contact-item strong {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        .contact-item span {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        /* Google-style floating elements */
+        .floating-shapes {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+        }
+
+        .shape-1 {
+            width: 100px;
+            height: 100px;
+            background: #4285f4;
+            top: 20%;
+            left: 10%;
+            animation: float 15s ease-in-out infinite;
+        }
+
+        .shape-2 {
+            width: 150px;
+            height: 150px;
+            background: #34a853;
+            top: 60%;
+            right: 15%;
+            animation: float 20s ease-in-out infinite reverse;
+        }
+
+        .shape-3 {
+            width: 80px;
+            height: 80px;
+            background: #fbbc05;
+            bottom: 30%;
+            left: 20%;
+            animation: float 18s ease-in-out infinite;
+        }
+
+        .shape-4 {
+            width: 120px;
+            height: 120px;
+            background: #ea4335;
+            top: 40%;
+            right: 30%;
+            animation: float 22s ease-in-out infinite reverse;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero .subtitle {
+                font-size: 20px;
+            }
+
+            .hero .description {
+                font-size: 16px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .experience-timeline::before {
+                left: 30px;
+            }
+
+            .experience-item {
+                width: calc(100% - 60px);
+                left: 60px !important;
+            }
+
+            .experience-item:nth-child(odd) .experience-card::before,
+            .experience-item:nth-child(even) .experience-card::before {
+                left: -32px;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 60px 0;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">Sumin Lee</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sumin Lee</h1>
+                <div class="subtitle">Data Engineer & IT Transformation Specialist</div>
+                <div class="description">Transforming data into actionable insights with enterprise-scale solutions</div>
+                <div class="cta-buttons">
+                    <a href="#about" class="cta-button primary">Explore My Work</a>
+                    <a href="#contact" class="cta-button secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image">SL</div>
+                    <div class="about-text">
+                        <p>With a <strong>strong foundation in data engineering, automation, and financial reporting</strong>, I've led end-to-end transformation projects that support enterprise-scale IT planning and decision-making. I design data systems and tools that people use, empowering teams with clearer insights, streamlined workflows, and reliable data pipelines.</p>
+                        <p>I enjoy <strong>tackling complex problems, simplifying them, and delivering solutions</strong> that connect business needs with technical possibilities. I love getting involved in customer-facing problem solving, technical storytelling, and solution-driven collaboration.</p>
+                        <p>I work comfortably with both technical teams and business leaders – <strong>bilingual not just in English and Korean, but also in tech and business</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Core Competencies</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Data Engineering</h3>
+                        <p>Full-scale data pipelines, ETL processes, and data lake architecture using AWS, Databricks, and Snowflake</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🚀</div>
+                        <h3>Digital Transformation</h3>
+                        <p>Led automation projects reducing manual processes by 90%, implemented enterprise-scale reporting solutions</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">💼</div>
+                        <h3>Business Analytics</h3>
+                        <p>Executive-level reporting, strategic insights, and data-driven decision making across global operations</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">👥</div>
+                        <h3>Technical Leadership</h3>
+                        <p>Cross-functional collaboration, technical training, and solution architecture design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience">
+            <div class="container">
+                <h2>Professional Experience</h2>
+                <div class="experience-timeline">
+                    <div class="experience-item">
+                        <div class="experience-card">
+                            <h3>Senior IT Planner</h3>
+                            <div class="company">Coupang - IT Transformation, Business Analytics</div>
+                            <div class="duration">Jan 2024 - Present</div>
+                            <ul>
+                                <li>Designed and deployed full-scale data pipeline (SharePoint → AWS S3 + Hive → Tableau) integrating siloed data across Finance, Procurement, and IT Asset</li>
+                                <li>Led Digital Transformation project replacing Excel-based reports with automated Tableau dashboards, improving visibility and reducing prep time by 90%</li>
+                                <li>Managed $30M+ annual IT budget across SaaS, enterprise applications, data centers, and infrastructure</li>
+                                <li>Built automated ETL pipelines using Power Query and Hive SQL, eliminating 80% of repetitive manual processes</li>
+                                <li>Architected centralized data lake solutions using AWS S3 + Hive to support cross-functional reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-card">
+                            <h3>Nike Direct Analytics Specialist</h3>
+                            <div class="company">Nike Korea - Consumer Insights Analytics</div>
+                            <div class="duration">Sept 2021 - Sept 2023</div>
+                            <ul>
+                                <li>Delivered executive-level digital performance insights to APLA & Korea C-suites, supporting double-digit growth</li>
+                                <li>Built integrated dashboards combining sales, inventory, marketing, and operations data from multiple sources</li>
+                                <li>Ensured data integrity during Nike Korea's migration to global digital platform, redesigning core Tableau dashboards</li>
+                                <li>Created fraud detection dashboard using machine learning algorithms to protect revenue</li>
+                                <li>Designed performant data marts using Databricks and Snowflake, improving reporting reliability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Key Projects & Achievements</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>JikgwanGaja</h3>
+                            <div class="subtitle">Baseball Fan Experience Platform</div>
+                        </div>
+                        <div class="project-body">
+                            <p>Built a React + Firebase web application to help baseball fans quickly access KBO lineups and chants, enhancing in-stadium experience with real-time data automation.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">GitHub Actions</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>BigContest 2021</h3>
+                            <div class="subtitle">Grand Prize Winner</div>
+                        </div>
+                        <div class="project-body">
+                            <p>Developed predictive models and introduced "barrel" metrics for KBO. Conducted cross-league statistical analysis between KBO and MLB, featured in media for innovative contributions.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Statistical Analysis</span>
+                                <span class="tech-tag">Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Research Publication</h3>
+                            <div class="subtitle">ACS Omega 2022</div>
+                        </div>
+                        <div class="project-body">
+                            <p>First Author: "Novel Solubility Prediction Models: Molecular Fingerprints and Physicochemical Features vs Graph Convolutional Neural Networks"</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Deep Learning</span>
+                                <span class="tech-tag">Graph Neural Networks</span>
+                                <span class="tech-tag">Chemical Informatics</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Food Waste Reduction Dashboard</h3>
+                            <div class="subtitle">Vizable Runway 2022 Speaker</div>
+                        </div>
+                        <div class="project-body">
+                            <p>Built data models and designed dashboard to reduce food waste in e-commerce fresh goods sector, optimizing inventory and improving operational efficiency.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Data Modeling</span>
+                                <span class="tech-tag">Dashboard Design</span>
+                                <span class="tech-tag">E-commerce Analytics</span>
+                                <span class="tech-tag">Inventory Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Let's Connect</h2>
+                <p>Ready to discuss data engineering, digital transformation, or analytics projects?</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong>
+                            <span>fltnadls1011@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong>
+                            <span>(+82) 10-9257-3432</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <span><a href="https://www.linkedin.com/in/your-profile" style="color:white;text-decoration:underline;">Connect with me</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+

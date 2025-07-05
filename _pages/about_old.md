@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About | Tech That Sticks"
-permalink: /about/
+title: "About Old"
+permalink: /about-old/
 ---
 
 # 🎯 Tech That Sticks
