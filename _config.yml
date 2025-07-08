@@ -102,3 +102,5 @@ nav:
     url: "/portfolio/"
   - title: "Contact"
     url: "/contact/"
+  - title: "All Posts"
+    url: "/all-posts/"
