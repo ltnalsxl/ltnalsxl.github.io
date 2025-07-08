@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "AI 도구를 조력자로, 비개발자의 35일간의 웹앱 도전기"
+title: "AI 도구와 함께한 비개발자의 5주 간의 웹앱 개발기"
 author: ltnalsxl
 categories: [automation, challenge]
 tags: [AI Tools, Web App, No-Code, Beginner]
 image:
-description: "AI 도구와 함께한 비개발자의 5주 웹앱 개발기"
+description: "AI 도구와 함께한 비개발자의 5주 간의 웹앱 개발기"
 featured: true
 ---
 
